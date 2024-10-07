@@ -1,0 +1,28 @@
+
+### 2. **.gitignore**
+
+O arquivo `.gitignore` é utilizado para ignorar arquivos que não precisam ser versionados. Aqui está um exemplo de `.gitignore` para um projeto que envolve scripts SQL e não requer o versionamento de arquivos temporários, logs ou configurações de IDE:
+
+```gitignore
+# Ignorar arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de configuração de IDE
+.vscode/
+.idea/
+
+# Ignorar arquivos de logs
+*.log
+
+# Ignorar arquivos temporários
+*.tmp
+
+# Ignorar o script gerado pelo MySQL
+*.sql
+
+# Ignorar backup de banco de dados
+*.bak
+
+# Ignorar arquivos de dumps do MySQL
+*.sql.gz
