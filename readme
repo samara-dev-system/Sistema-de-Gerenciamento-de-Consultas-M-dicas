@@ -1,0 +1,31 @@
+# Gerenciamento de Consultas Médicas
+
+Este projeto é um sistema de gerenciamento de consultas médicas, utilizando um banco de dados MySQL para armazenar informações de pacientes, médicos e consultas. O objetivo é permitir o agendamento de consultas e a gestão dessas consultas no sistema.
+
+## Estrutura do Banco de Dados
+
+O banco de dados foi projetado com três tabelas principais:
+
+- **pacientes**: Armazena informações sobre os pacientes.
+- **medicos**: Armazena informações sobre os médicos.
+- **consultas**: Armazena informações sobre as consultas agendadas entre pacientes e médicos.
+
+## Funcionalidades
+
+1. **Criação do banco de dados** com tabelas de pacientes, médicos e consultas.
+2. **Inserção de dados fictícios** para simular pacientes, médicos e consultas.
+3. **Consultas**:
+   - Listar todos os pacientes e suas consultas.
+   - Listar médicos e quantas consultas têm agendadas.
+   - Consultar pacientes com consultas em um dia específico.
+   - Verificar se um paciente já tem uma consulta com um médico específico.
+4. **Atualizações**:
+   - Atualizar informações de consultas e pacientes.
+5. **Deleção de Consultas**:
+   - Deletar consultas específicas ou todas as consultas de um médico.
+
+## Instruções para Uso
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/gerenciamento-consultas-medicas.git
